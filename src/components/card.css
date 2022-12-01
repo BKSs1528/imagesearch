@@ -1,0 +1,30 @@
+.card{
+    width: 27vw;
+    
+    margin: 10px;
+    box-shadow: 5px 5px 10px #888;
+    background-color: rgb(247,247,247);
+    padding: 20px;
+    border-radius: 20px;
+}
+.card:hover{
+    background-color: rgb(234,238,242);
+    cursor: pointer;
+}
+.card:hover .hover{
+    display: flex;
+    justify-content:end;
+    padding: 10px;
+}
+.hover{
+    display: none;
+}
+.card-image-holder{
+    height: 25vh;
+    width: 27vw;
+}
+.card-image-holder img{
+    height:100%;
+    width: 100%;
+    border-radius: 10px;
+}
